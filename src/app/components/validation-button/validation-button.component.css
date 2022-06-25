@@ -1,0 +1,5 @@
+.example-button-row {
+    margin-left: 50px;
+    display: table-cell;
+    border: 1px solid;
+  }

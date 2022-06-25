@@ -1,0 +1,6 @@
+    <ul>
+        <ng-container *ngFor="let item of messages">
+            <li style="text-align: end;" *ngIf="isFirst == item[1]">{{item[0]}}</li>
+            <li *ngIf="isFirst !== item[1]">{{item[0]}}</li>
+        </ng-container>
+    </ul>
