@@ -1,3 +1,4 @@
-<div>
-    <input class="input" type="text" (change)="sendMessage()" [(ngModel)]="message" placeholder="Enter your message">
+<div class="align">
+    <input class="input flex" type="text" style="padding:1.5%"  (change)="sendMessage()" [(ngModel)]="message" placeholder="Enter your message">
+    <button class="example-button-row" onClick="sendMessage()">OK</button>
 </div>

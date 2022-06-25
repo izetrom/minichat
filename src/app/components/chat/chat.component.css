@@ -2,19 +2,23 @@
     margin-top: 10px;
     display: flex;
     width: 100%;
-    margin-right: 20px;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top: 10px;
 }
 
 .margin {
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+.end {
+    align-items: flex-end;
+}
 .input {
-    /* border-top: 2px solid;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    width: 100%; */
+    width:100%;
 }

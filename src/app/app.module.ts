@@ -6,10 +6,12 @@ import { NgModule } from '@angular/core';
 
 
 @NgModule({
-  declarations: [
+  declarations:
+  [
     AppComponent,
   ],
-  imports: [
+  imports:
+  [
     AppRoutingModule,
     BrowserModule,
     ChatModule
